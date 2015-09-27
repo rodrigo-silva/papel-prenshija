@@ -40,7 +40,7 @@ public class LaPostaNewsPaperTemplateData extends AbstractNewsPaperTemplateData 
 
    @Override
    protected TextSection getInternalSubtitleSection() {
-      final TextSectionFont textFont = new TextSectionFont(20, 20, "Helvética-Narrow", Font.PLAIN);
+      final TextSectionFont textFont = new TextSectionFont(20, 20, "Helvetica-Narrow", Font.PLAIN);
       final TwoDimensionsValues textCoordinates = new TwoDimensionsValues(170, 340);
       final Integer textLeading = 0;
       final Integer textWidth = 560;
