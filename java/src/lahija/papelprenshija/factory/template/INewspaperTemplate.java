@@ -2,8 +2,8 @@ package lahija.papelprenshija.factory.template;
 
 import java.util.NoSuchElementException;
 
-import lahija.papelprenshija.diario.factory.template.components.BackgroundTemplate;
-import lahija.papelprenshija.diario.factory.template.components.TextSection;
+import lahija.papelprenshija.model.template.components.BackgroundTemplate;
+import lahija.papelprenshija.model.template.components.TextSection;
 
 /**
  * Newspaper template, represents Newspaper structure. Background image, text and picture coordinates, font type, style and sizes.

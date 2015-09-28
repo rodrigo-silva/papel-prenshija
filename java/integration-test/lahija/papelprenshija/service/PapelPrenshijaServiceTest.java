@@ -13,9 +13,9 @@ import org.junit.Test;
 public class PapelPrenshijaServiceTest {
 
    @Test public void testPrintFrontPage() {
-      final String tile = "Titular";
+      final String tile = "Lorem ipsum";
       final String subtitle = "Lorem ipsum et sit amet";
-      final String featureImagePath = "integration-test/resources/lahija.jpg";
+      final String featureImagePath = "integration-test/resources/Avant1.jpg";
       final String caption = "Image caption";
       final String templateName = "La Posta";
 
@@ -47,5 +47,20 @@ public class PapelPrenshijaServiceTest {
          fail("Should throw RequestParametersValidationException");
       } catch (final RequestParametersValidationException e) {
       }
+   }
+
+   @Test public void testPrintAllFrontPage() {
+      final String tile = "Lorem ipsum";
+      final String subtitle = "Lorem ipsum et sit amet";
+      final String featureImagePath = "integration-test/resources/Avant1.jpg";
+      final String caption = "Image caption";
+
+      final List<String> names = PapelPrenshijaService.getFrontPageNames();
+
+      for (final String name : names) {
+         final FrontPageRequestParams requestParams = new FrontPageRequestParams(tile, subtitle, featureImagePath, caption, name);
+         PapelPrenshijaService.printFrontPage(requestParams);
+      }
+
    }
 }
