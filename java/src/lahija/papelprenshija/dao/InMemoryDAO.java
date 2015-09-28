@@ -1,7 +1,7 @@
 package lahija.papelprenshija.dao;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -53,7 +53,7 @@ public class InMemoryDAO {
     * @return
     */
    public static Map<String, String> getFrontPageNamesAndBackgroundTemplatePath() {
-      final Map<String, String> namesAndPaths = new HashMap<String, String>();
+      final Map<String, String> namesAndPaths = new LinkedHashMap<String, String>();
       final NewsPaperTemplateDataEnum[] values = NewsPaperTemplateDataEnum.values();
       for (final NewsPaperTemplateDataEnum value : values) {
          namesAndPaths.put(value.getName(), value.getData().getBackgroundTemplate().getPath());

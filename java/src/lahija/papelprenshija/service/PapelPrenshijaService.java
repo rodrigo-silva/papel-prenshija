@@ -4,6 +4,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -58,7 +59,7 @@ public class PapelPrenshijaService {
    public static Map<String, String> getFrontPageNamesAndBackgroundTemplatePreviewPath() {
       final Map<String, String> frontPageNamesAndBackgroundTemplatePath =
                InMemoryDAO.getFrontPageNamesAndBackgroundTemplatePath();
-      final HashMap<String, String> namesAndPreviews = new HashMap<String, String>();
+      final HashMap<String, String> namesAndPreviews = new LinkedHashMap<String, String>();
       for (final Entry<String, String> entry : frontPageNamesAndBackgroundTemplatePath.entrySet()) {
          final String path = entry.getValue();
          //TODO: COC, is it right?? Could be saved in db?
