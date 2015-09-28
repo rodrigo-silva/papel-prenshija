@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\carpethija\PapelPrenshija_2.0\build\Executable Generation\snapshot.jar</jar>
+  <outfile>D:\carpethija\PapelPrenshija_2.0\build\Executable Generation\papelprenshija.exe</outfile>
+  <errTitle>Papel Prenshija</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>D:\carpethija\PapelPrenshija_2.0\design\icono.ico</icon>
+  <singleInstance>
+    <mutexName>papelprenshija</mutexName>
+    <windowTitle></windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.7.0_45</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <splash>
+    <file>D:\carpethija\PapelPrenshija_2.0\design\Logo-app.bmp</file>
+    <waitForWindow>true</waitForWindow>
+    <timeout>10</timeout>
+    <timeoutErr>true</timeoutErr>
+  </splash>
+</launch4jConfig>

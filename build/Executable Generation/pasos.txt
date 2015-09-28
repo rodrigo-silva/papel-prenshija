@@ -1,0 +1,5 @@
+1. Necesitas el launch4j 3.8. Instalalo
+2. Hay un archivo xml de configuracion, launch4j.xml
+   Basicamente tiene donde esta el jar ejecutable, el output, el .ico y el bmp de splash
+3. la carpeta support y templates TIENEN que estar completas, sino al correr el exe pincha
+4. El jar generalo con eclipse, no incluyas ninguna imagen y que sea un jar runnable ;)

@@ -12,7 +12,7 @@ import net.miginfocom.swing.MigLayout;
 public class PapelPrenshija {
 
    public static void main(final String[] args) throws InterruptedException {
-      final JFrame frame = new JFrame("Papel Prenshija");
+      final JFrame frame = new JFrame("Papel Prenshija 2.1");
       frame.setLayout(new MigLayout("wrap 1"));
 
       final JPanel logoPanel = new LogoPanel();

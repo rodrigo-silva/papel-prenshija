@@ -1,0 +1,4 @@
+1. hay una ver x64 y x86 porque el FontReg no es el mimso
+2. anda a commons y reemplaza el exe por el nuevo y las carpetas de support y templates
+3. genera dos zips con cada ver del FontReg, que va a dentro de la carpeta fontreg
+4. Instala chilkatzipse y levantalo. Utiliza los xml de configuracion
