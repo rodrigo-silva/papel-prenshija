@@ -13,11 +13,11 @@ import org.junit.Test;
 public class PapelPrenshijaServiceTest {
 
    @Test public void testPrintFrontPage() {
-      final String tile = "Lorem ipsum";
+      final String tile = "Lorem ipsum et sit";
       final String subtitle = "Lorem ipsum et sit amet";
       final String featureImagePath = "integration-test/resources/Avant1.jpg";
       final String caption = "Image caption";
-      final String templateName = "La Posta";
+      final String templateName = "El Capital A";
 
       final FrontPageRequestParams requestParams = new FrontPageRequestParams(tile, subtitle, featureImagePath, caption, templateName);
       PapelPrenshijaService.printFrontPage(requestParams);

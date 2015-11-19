@@ -31,7 +31,7 @@ public class ElCapitalANewsPaperTemplateData extends AbstractNewsPaperTemplateDa
 
    @Override
    protected TextSection getInternalTitleSection() {
-      final TextSectionFont textFont = new TextSectionFont(55, 55, "Times New Roman", Font.BOLD);
+      final TextSectionFont textFont = new TextSectionFont(90, 90, "Times New Roman", Font.BOLD);
       final TwoDimensionsValues textCoordinates = new TwoDimensionsValues(12, 200);
       final Integer textLeading = -10;
       final Integer textWidth = 570;
